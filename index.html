@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro e Listagem de Produtos - Oak-Tecnologia</title>
+</head>
+
+<body>
+    <div class="container">
+        <section id="listOrRegister">
+            <h2>Register Products</h2>
+
+            <label for="">Name</label>
+            <input type="text" class="input" id="name">
+
+            <label for="">Price</label>
+            <input type="text" class="input" id="price">
+
+            <label for="">Description</label>
+            <textarea name="" id="description"></textarea>
+
+            <p> Availability for sale</p>
+            <div>
+                <label for="">
+                    <input type="radio" name="option" id="" value="Yes">Yes
+                </label>
+
+                <label for="">
+                    <input type="radio" name="option" id="" value="Not">Not
+                </label>
+
+            </div>
+
+
+            <button id="btn_Add">Add produts</button>
+        </section>
+
+        <section id="table-container">
+            <table id="table">
+
+            </table>
+            <button id="btn_List">back</button>
+        </section>
+
+
+    </div>
+    <script src="./registerProducts.js"></script>
+</body>
+
+</html>
